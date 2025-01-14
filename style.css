@@ -82,6 +82,22 @@ font-style: normal;
     padding: 20px;
     text-align: left;
 }
+.pillars{
+    color: grey;
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 380px;
+line-height: 24px;
+}
+.headline{
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+
+}
 
 /* section 2 */
 .section2{
@@ -170,10 +186,9 @@ position: absolute;
 
 
 
-/* Opinion Section/forum*/
+
 .opinion-form{
 width: 1280px;
-/* height: 48px; */
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
@@ -184,7 +199,6 @@ margin: auto;
 }
 .opinion-table{
 width: 1280px;
-/* height: 409px; */
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
@@ -233,7 +247,6 @@ border-radius: 16px;
 }
 .option-data{
 width: 200px;
-/* height: 92px; */
 display: flex;
 flex-direction: column;
 align-items: stretch;
@@ -267,10 +280,9 @@ background: rgba(255, 255, 255, 0.1);
     width: 100%;
 }
 
-/* recent news section */
+
 .recent-news{
     width: 1280px;
-    /* height: 1406px; */
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -285,7 +297,7 @@ background: rgba(255, 255, 255, 0.1);
     padding: 10px 0 0 0;
     gap: 30px;
 }
-.read-more-button{
+.rm-button{
     width: 139px;
     height: 48px;
     gap: 48;
@@ -317,18 +329,17 @@ background: rgba(255, 255, 255, 0.1);
 .news-sec-img{
     width: 408px;
     height: 306px;
-    margin: 0px 32px 0 0;
+    margin: 0px 32px 0px 0px;
     border-radius: 24px;
 }
 .news-sec2-img{
     width: 408px;
     height: 306px;
-    margin: 0px 0 32px 0;
+    margin: 0px 0px 32px 0px;
     border-radius: 24px;
 }
 .section1-news-cotainers{
     width: 744px;
-    /* height: 210px; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -341,7 +352,6 @@ background: rgba(255, 255, 255, 0.1);
 
 .news-section2{
     width: 1280px;
-    /* height: 402px; */
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -458,7 +468,7 @@ border-radius: 10px;}
 }
 
 
-#link-header{
+#lheader{
     color: rgb(14, 14, 14);
 font-family: Fira Sans;
 font-size: 32px;
@@ -475,11 +485,10 @@ align-items: center;
 gap: 16;
 padding: 10px;
 }
-.link-div{
+.ldiv{
     display: flex;
     flex-direction: row;
-    
-gap: 23;
+    gap: 23;
 padding: 10px;
 margin: 32px 0px;
 }
